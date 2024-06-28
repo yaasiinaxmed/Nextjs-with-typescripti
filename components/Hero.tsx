@@ -4,7 +4,7 @@ import Game from './Game'
 
 function Hero() {
   return (
-    <div className='w-full h-[100vh] flex flex-col md:flex-row items-center justify-around'>
+    <div className='w-full h-[110vh] flex flex-col md:flex-row items-center justify-around'>
         {/* hero image */}
         <figure className='flex items-center justify-center mt-[6rem] md:mt-0'>
         <Image 
