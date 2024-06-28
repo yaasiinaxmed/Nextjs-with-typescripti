@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React, { useState } from 'react';
-import { FaBarsStaggered } from "react-icons/fa6";
+// import { FaBarsStaggered } from "react-icons/fa6";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header: React.FC = () => {
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         </div>
         <div className='flex md:hidden items-center'>
           <div onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-2xl !mr-7 cursor-pointer">
-            {isMenuOpen ? <FaTimes /> : <FaBarsStaggered />}
+            {isMenuOpen ? <FaTimes /> : <FaBars />}
           </div>
         </div>
       </div>
