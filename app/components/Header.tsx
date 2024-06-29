@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-[80px] bg-white">
+    <header className="fixed top-0 left-0 w-full h-[80px] bg-white z-20">
       <div className="w-full h-full container mx-auto px-2 sm:px-8 flex items-center justify-between">
         <figure>
           <Image 

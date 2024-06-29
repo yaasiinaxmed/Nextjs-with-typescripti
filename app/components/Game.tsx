@@ -21,11 +21,14 @@ const Game: React.FC = () => {
     <div className="bg-white p-6 w-[88%] sm:w-[380px] rounded-lg flex flex-col items-center shadow">
      <div className="flex flex-col gap-3 pb-3">
      <h2 className="text-xl font-bold text-center">Play <span className="text-[#F1C017]">Game</span></h2>
+    <div className="flex flex-col gap-1">
+    <p className="font-bold text-center text-xs sm:text-sm">Your Chance to win a <span className="text-[#F1C017]">BTC</span></p>
       <p className="text-center text-xs sm:text-sm">
         First, connect your wallet and choose 7 numbers for gameplay. Then,
         click "Next," review your selections, and contribute tokens to the
         reward pool. Good luck!
       </p>
+    </div>
      </div>
       <div className="grid grid-cols-5 gap-2 mb-4">
         {numbers.map((number) => (
